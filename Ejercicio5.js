@@ -10,8 +10,8 @@ const rl = readline.createInterface({
 });
 
 //Solicitamos datos al usuario
-rl.question('ingresa tu peso: ', (peso) => {
-  rl.question('ingresa tu año de altura: ', (altura) => {
+rl.question('Ingresa tu peso: ', (peso) => {
+  rl.question('Ingresa tu año de altura: ', (altura) => {
 
    // Calcular la IMC
       const IMC = peso/altura**2;
